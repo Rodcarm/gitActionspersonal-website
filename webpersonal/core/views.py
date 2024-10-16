@@ -6,10 +6,10 @@ def home(request):
     return render(request, "core/home.html")
 
 def about(request):
-    print("ttttt")
+    print("rrrrrr")
     return render(request,"core/about.html")
 
 
 def contact(request):
-    print("dest")
+    print("ttttt")
     return render(request,"core/contact.html")
